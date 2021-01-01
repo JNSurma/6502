@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name 6502-rescue)(type Legacy)(uri ${KIPRJMOD}/6502-rescue.lib)(options "")(descr "")(disabled))
+  (lib (name WDC)(type Legacy)(uri "C:/Program Files/KiCad/share/kicad/library/6502.lib")(options "")(descr ""))
+)
