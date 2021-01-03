@@ -1,2 +1,2 @@
-# 6502
-My 6502 Homebrew Computer
+# 6502_sbc
+My 6502 Home-brew Computer
