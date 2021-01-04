@@ -15,7 +15,10 @@ RAM			/CS1		= NAND((NAND A15,A14),8NAND A13-A7)
 			CS2		= PHI2
 
 I/O			/CS		= 3 TO 8 DECODE
-
+				*note some may need invertion and PHI2 (see LCD Enable below)
 3 TO 8 DECODE
-			G1		= PHI2
+			G1		= +
 			/G2		= NAND((NAND A15,14),!8NAND A13-A7)
+
+LCD Enable			= !NAND(!(3 TO 8 DECODE),PHI2)
+
